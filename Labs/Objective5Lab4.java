@@ -11,7 +11,7 @@ public class Objective5Lab4 {
 		if (userNum % 2 == 0) {
 			System.out.println("The number is even.");
 		}
-		else if (userNum % 2 == 1){
+		else {
 			System.out.println("The number is odd.");
 		}
 		kb.close();
