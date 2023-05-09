@@ -22,22 +22,27 @@ public class Objective9Lab5 {
 			choice = kb.nextInt();
 
 			switch (choice) {
+			
 			case 1:
 				double sum = findSum(num1, num2);
 				System.out.println(num1 + " + " + num2 + " = " + sum);
 				break;
+			
 			case 2:
 				double average = findAverage(num1, num2);
 				System.out.println("The average of " + num1 + " and " + num2 + " is: " + average);
 				break;
+			
 			case 3:
 				double calcTax = calcTax(num1, num2);
 				System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " is : " + calcTax);
 				break;
+			
 			case 4:
 				System.out.println("You've chosen to quit.");
 				keepGoing = false;
 				break;
+			
 			default:
 				System.out.println("Invaild choice please select again.");
 				break;
