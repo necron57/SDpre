@@ -8,19 +8,20 @@ public class Objective9Lab3 {
 
     while(selection <= 2){
     	printMenu();
+
     	selection = kb.nextInt();
+
     	if(selection == 1){
     		System.out.println("Hello Human");
     	}
+
     	else if(selection == 2){
     		System.out.println("Apples, Bananas, Coconuts");
     	}
+
     	else {
     		System.out.println("Goodbye");
     	}
-
-      
-      
     }
 
     kb.close();
